@@ -60,6 +60,17 @@ body {
   .items-content {
     width: 100%;
   }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .down p {
+    font-size: 0.5rem;
+  }
 }
 
 .items-content img {
